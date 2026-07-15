@@ -1,0 +1,43 @@
+/* An advance train Booking system
+* ------ Key features------
+* Admin Panel
+*  > Login
+*  > if Credentials good then, gateway Good else Bad gateway
+*  > After Success Login, Redirect To Trains Admin panel
+*  > logout and book trains
+*
+* Add trains
+*  > Select name
+*  > Select number
+*  > add number of stations FROM and TO
+*  > Add timings for the day and Turn around routes
+*
+* Book Ticket
+*  > Select FROM and TO
+*  > See upcoming trains
+*  > see number of stations info
+*  > Book ticket (Local Virtualization) */
+
+import java.util.Scanner;
+import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class TrainBookingSystem {
+    public static void main(String[] args){
+
+        //HashMap object
+        HashMap<String, String> hm = new HashMap<>();
+        //Println object
+        PrintStream ps = System.out;
+        //Scanner object
+        Scanner sc = new Scanner(System.in);
+        hm.put("a", "1234A");
+
+        
+
+
+
+    }
+}
