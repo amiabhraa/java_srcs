@@ -1,4 +1,4 @@
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 import java.util.Scanner;
 import java.io.PrintStream;
 import java.lang.StringBuilder;
@@ -7,14 +7,14 @@ public class Project1 {
     public static void main(String[] args){
 
         //Making LinkedHashMap object
-        LinkedHashMap<String,String> hm = new LinkedHashMap<>();
+        HashMap<String,String> hm = new HashMap<>();
         //Making Scanner object
         Scanner sc = new Scanner(System.in);
         //Making printStream class
         PrintStream ps = System.out;
         int codeLen = 8;
         //Making code generator package
-        alphaNumericCodeGen code = new alphaNumericCodeGen();
+        //alphaNumericCodeGen code = new alphaNumericCodeGen();
         alphaNumericCodeGen.Generator(codeLen);
 
         StringBuilder sb = new StringBuilder();
